@@ -1,0 +1,35 @@
+Git commands
+
+git config --get user.name 
+git config --get user.email
+git config --global user.name "Real Name"
+git config --global user.email "me@example.com"
+git init.
+git status
+
+git log --oneline
+git add -a
+git commit -m ""
+git push
+
+
+rvm commands
+
+gem list
+rvm gemset list
+
+
+Ruby commands
+
+rvm use ruby-ver.si.on@project
+
+rvm use ruby-2.0.0@learn-rails --ruby-version - sticky gemset
+
+rails commands
+
+rails new app name
+
+rails s (run server)
+Rails.logger.debug ''
+raise 'Deliberate Failure'
+
